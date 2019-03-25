@@ -16,11 +16,11 @@ func (s *State) ReadFile(f *os.File) ([]token.Value, error) {
 	return nil, fmt.Errorf("TBD")
 }
 
-func (s *State) Parse(tokens []token.Value) (ast.Tree, error) {
+func (s *State) Parse(tokens []token.Value) (ast.Node, error) {
 	return nil, fmt.Errorf("TBD")
 }
 
-func (s *State) Run(tree ast.Tree, argc int, argv **Value) (Value, error) {
+func (s *State) Run(tree ast.Node, argc int, argv **Value) (Value, error) {
 	var v Value
 	return v, fmt.Errorf("TBD")
 }

@@ -1,4 +1,6 @@
 package ast
 
-type Tree interface {
+type Node interface {
+	Node() Expr
+	Nodes() Node
 }
