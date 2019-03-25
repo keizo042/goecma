@@ -1,5 +1,6 @@
 vendor/
 cmd/goecma/goecma
+goecma
 TAGS
 TAG
 tags
